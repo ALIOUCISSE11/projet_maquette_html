@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+    background-color: #fff;
+}
+header {
+    background-color:#fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 3px solid #87ceeb;
+}
+
+header h1 {
+    margin: 0;
+    color: #000;
+}
+
+header nav ul {
+    list-style: none;
+    color: #fff;
+    display: flex;
+    padding: 0;
+    background-color: #87ceeb;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+header nav li {
+    margin: 0 10px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 10em;
+}
+#nav1 ul#ul1{
+    border-radius: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+}
+.change-widht{
+    width: 400px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.h1-parba{
+    color: #77bdc9;
+    font-size: 50px;
+}
+.h2-parba{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+.button-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px; 
+    position: absolute;
+    bottom: 100px; /* Ajustez la distance par rapport au bas de l'image */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.blue-bg, .white-bg {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    margin : 50px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+  
+    
+}
+
+.blue-bg {
+    background-color: #77bdc9;
+    color: #ffffff;
+}
+
+.white-bg {
+    background-color: #ffffff;
+    color: #77bdc9;
+    border: solid #87ceeb;
+}
+.content-section{
+    background-color: #107eaa98;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 150px;
+    margin-bottom: 250px;
+    padding-bottom: 100px;
+   
+}
+
+.parba-content{
+    text-align: center;
+    color: #ffffff;
+    font-size: 70px;
+    margin-top: 20px;
+    padding-top: 70px;
+    
+    
+}
+
+
+.p1{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    width: 650px;
+    font-weight: 700;
+    margin-left: 30%;
+    
+
+}
+.p2{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 20px;
+    width: 60%;
+    margin-left: 20%;
+    
+}
+
+.divider{
+    text-align: center;
+    margin-top: 30px;
+    width: 20%;
+    height: 5px;
+    background-color: #87ceeb;
+    border-radius: 5px;
+}
+
+partenaire-section {
+    text-align: center;
+    background-color: skyblue; /* Fond de couleur skyblue */
+    padding: 20px; /* Espacement autour du rectangle */
+    margin: 50px auto; /* Centrer le rectangle horizontalement */
+    max-width: 800px; /* Largeur maximale du rectangle */
+    border-radius: 10px; /* Bordure arrondie */
+}
+
+.partenaire-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: skyblue;
+    margin: 0px 250px 0px 250px;
+    padding: 50px 0px 50px 0px;
+    justify-content: space-around;
+}
+
+.partenaire-logos img {
+    margin: 10px;
+    max-width: 150px;
+    height: auto;
+}
+.title-part{
+    text-align: center;
+    color: #77bdc9;
+    margin-bottom: 50px;
+}
+
+
+.temoignage-section {
+    text-align: center;
+    padding: 50px 0; /* Espacement autour de la section */
+}
+
+.temoignage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Espacement entre les témoignages */
+}
+
+.title-temoin{
+    color: #77bdc9;
+}
+.card {
+    background-color: white;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre portée */
+    max-width: 300px; /* Largeur maximale de la carte */
+    text-align: left; /* Alignement du texte à gauche */
+}
+
+.card img {
+    width: 50%; /* Largeur de l'image à 100% de la carte */
+    
+    border-radius: 10px 10px 0 0; /* Coins arrondis seulement en haut */
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+.card-text {
+    padding-top: 20px; /* Espacement au-dessus du texte */
+}
+
+.name {
+    font-weight: bold; /* Texte en gras pour le nom */
+    text-align: center;
+}
+
+.position {
+    color: #888; /* Couleur du texte pour la position */
+    text-align: center;
+}
+
+.testimonial-text {
+    font-style: italic; /* Texte en italique pour le témoignage */
+}
+
+.contact-section {
+    background-color: #77bdc9;
+    margin: 0px 250px;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.contact-h1 {
+    color: #77bdc9;
+    text-align: center;
+}
+
+
+
+
+.form-group {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+
+}
+
+.form-group label {
+    display: block;
+    margin-left: 250px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 50%;
+    margin-left: 250px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    margin-top: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-container {
+    background-color: black;
+    margin-top: 70px;
+    padding: 50px 0;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+}
+
+.about-section {
+    flex-basis: calc(50% - 20px); /* 50% de la largeur moins la marge entre les éléments */
+}
+
+.about-section p {
+    margin-bottom: 20px;
+}
+
+.text-parba {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 400px;
+    height: 700;
+    position: relative;
+}
+
+.text-propos {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: center;
+    flex-basis: 100%;
+}
+
